@@ -1,5 +1,5 @@
 package ru
 
 object Main extends App {
-  Chapter2.testConcurrentBiMap()
+  Chapter3.ex9()
 }
