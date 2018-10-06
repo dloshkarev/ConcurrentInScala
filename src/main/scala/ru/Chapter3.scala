@@ -80,7 +80,7 @@ object Chapter3 {
 
       @tailrec
       final def add(x: T): Unit = {
-        // ex. 4 require linear time, but this solution even better - constant time
+        // ex. 4 require O(n) time, but this solution even better - O(1)
         val old = list.get
         sorted.compareAndSet(true, false)
         if (!list.compareAndSet(old, x :: old)) add(x)
