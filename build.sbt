@@ -10,3 +10,4 @@ resolvers ++= Seq(
   "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 )
 libraryDependencies += "org.scala-lang.modules" %% "scala-async" % "0.9.7"
+libraryDependencies += "com.netflix.rxjava" % "rxjava-scala" % "0.19.1"

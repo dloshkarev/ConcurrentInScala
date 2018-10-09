@@ -1,5 +1,5 @@
 package ru
 
 object Main extends App {
-  Chapter5.ex2()
+  Chapter6.ex5()
 }
