@@ -11,3 +11,5 @@ resolvers ++= Seq(
 )
 libraryDependencies += "org.scala-lang.modules" %% "scala-async" % "0.9.7"
 libraryDependencies += "com.netflix.rxjava" % "rxjava-scala" % "0.19.1"
+libraryDependencies += "org.scala-stm" %% "scala-stm" % "0.8"
+
